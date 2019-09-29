@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec6bd2f0-fe89-45f3-aaa9-c624311439e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ec6bd2f0-fe89-45f3-aaa9-c624311439e1" name="Default" comment="新增半透明边框、多重边框">
+      <change afterPath="$PROJECT_DIR$/01 背景与边框/多重边框 outline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01 半透明边框/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 背景与边框/半透明边框.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,69 +28,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="357" />
+          <entry key="html" value="659" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="357" />
+          <entry key="HTML" value="659" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="1" />
+          <entry key="html" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="1" />
+          <entry key="HTML" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/36 自适应内部元素/demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 背景与边框/半透明边框.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html">
+        <entry file="file://$PROJECT_DIR$/01 背景与边框/多重边框 outline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/37 精确控制表格列宽/demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/45 打字动画/demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="145">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -118,6 +83,7 @@
         <option value="$PROJECT_DIR$/01 半透明边框/index.html" />
         <option value="$PROJECT_DIR$/01 背景与边框/多重边框.html" />
         <option value="$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html" />
+        <option value="$PROJECT_DIR$/01 背景与边框/多重边框 outline.html" />
       </list>
     </option>
   </component>
@@ -220,7 +186,7 @@
       <workItem from="1505832035995" duration="403000" />
       <workItem from="1569120599619" duration="533000" />
       <workItem from="1569484275610" duration="2966000" />
-      <workItem from="1569719799569" duration="2061000" />
+      <workItem from="1569719799569" duration="7218000" />
     </task>
     <task id="LOCAL-00001" summary="精确控制表格列宽">
       <created>1503383211654</created>
@@ -229,17 +195,24 @@
       <option name="project" value="LOCAL" />
       <updated>1503383211654</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增半透明边框、多重边框">
+      <created>1569723368100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569723368100</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11246000" />
+    <option name="totallyTimeSpent" value="16403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12658228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12658228" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +226,7 @@
       <window_info anchor="bottom" id="Debug Logs" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Execute Anonymous" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2986111" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2986111" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -269,20 +242,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="精确控制表格列宽" />
-    <option name="LAST_COMMIT_MESSAGE" value="精确控制表格列宽" />
+    <MESSAGE value="新增半透明边框、多重边框" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增半透明边框、多重边框" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/36 自适应内部元素/demo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 背景与边框/半透明边框.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -300,10 +267,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01 背景与边框/半透明边框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01 背景与边框/多重边框 box-shadow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="58">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 背景与边框/多重边框 outline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
