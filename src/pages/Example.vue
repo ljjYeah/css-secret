@@ -1,90 +1,160 @@
 <template>
-  <div class="app">
-    <slider
-      :examples="examples"
-      :currentIndex="currentIndex"
-      @changeCurrentIndex="changeCurrentIndex"
-    />
-    <show
-      :examples="examples"
-      :currentIndex="currentIndex"
-    />
-    <html-code
-      :examples="examples"
-      :currentIndex="currentIndex"
-    />
+  <div class="container">
+    <section class="show">
+      <div class="nav">
+        <h1>{{examples[currentId].title}}</h1>
+        <div class="chapter">
+             <span v-if="currentId>1" @click="changeExample(currentId-1)">
+            上一章：{{examples[currentId-1].title}}
+          </span>
+          <span v-if="currentId<Object.keys(examples).length" @click="changeExample(Number(currentId)+1)">
+            下一章：{{examples[Number(currentId)+1].title}}
+          </span>
+        </div>
+      </div>
+      <div class="icons">
+        <span class="iconfont icon-home" @click="$router.push('/list')"></span>
+        <span :class="`iconfont icon-${isShowCode ? 'show' : 'hide'}`" @click="toggleShow"></span>
+        <span class="iconfont icon-restart"></span>
+      </div>
+      <iframe :srcdoc="examples[currentId].html"></iframe>
+    </section>
+    <section class="code-container" v-if="isShowCode">
+      <codemirror
+        class="codemirror"
+        ref="codeContainer"
+        v-model="examples[currentId].html"
+        :options="options"
+        @ready="cmReady"
+      />
+    </section>
   </div>
 </template>
 
 <script>
-	import Slider from '../components/Slider'
-	import Show from '../components/Show'
-	import HtmlCode from '../components/HtmlCode'
-
-	import example_1 from '../examples/1'
-	import example_2_1 from '../examples/2-1'
-	import example_2_2 from '../examples/2-2'
-	import example_3 from '../examples/3'
-	import example_4 from '../examples/4'
-	import example_5 from '../examples/5'
+	import { codemirror } from "vue-codemirror";
+	import 'codemirror/lib/codemirror.css'
+	import 'codemirror/mode/markdown/markdown'
+	import 'codemirror/theme/monokai.css'
+	import examples from '../examples/index'
 
 	export default {
 		name: 'app',
 		data() {
 			return {
-				currentIndex: 0,
-				examples: [
-					{
-						title: '半透明背景',
-						html: example_1
-					},
-					{
-						title: '多重边框1',
-						html: example_2_1
-					},
-					{
-						title: '多重边框2',
-						html: example_2_2
-					},
-					{
-						title: '灵活的背景定位',
-						html: example_3
-					},
-					{
-						title: '边框内圆角',
-						html: example_4
-					},
-					{
-						title: '条纹背景',
-						html: example_5
-					}
-				]
+				isShowCode: false,
+				examples: examples,
+				options: {
+					mode: 'text/html',
+					lineNumbers: true,
+					styleActiveLine: true,
+					theme: 'monokai',
+					lineWrapping: true
+				}
 			}
 		},
+		computed: {
+			currentId() {
+				return this.$route.params.id
+			},
+		},
 		methods: {
-			changeCurrentIndex(index) {
-				if (index === this.currentIndex) return;
-				this.currentIndex = index
+			cmReady() {
+				this.$refs.codeContainer.codemirror.setSize('100%', '100%');
+			},
+			changeExample(id) {
+				this.$router.push(`/example/${id}`)
+			},
+			toggleShow() {
+				this.isShowCode = !this.isShowCode;
 			}
 		},
 		components: {
-			Slider,
-			Show,
-			HtmlCode,
+			codemirror
 		}
 	}
 </script>
 
-<style lang="less">
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .app {
+<style lang="less" scoped>
+  .container {
     height: 100vh;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    display: flex;
+    .show {
+      flex: 1;
+      display: grid;
+      grid-template-rows: 115px 1fr;
+      position: relative;
+      padding-bottom: 30px;
+      .nav {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1 {
+          color: #722ed1;
+        }
+        .chapter {
+          span {
+            padding: 5px 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid white;
+            cursor: pointer;
+            color: white;
+            & + span {
+              margin-left: 15px;
+            }
+            &:hover {
+              color: #722ed1;
+              border: 1px solid #722ed1;
+              transition: all 0.5s;
+            }
+          }
+        }
+      }
+      .icons {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: flex;
+        flex-direction: column;
+        span {
+          display: inline-flex;
+          height: 50px;
+          width: 50px;
+          background: #f9f0ff;
+          border-radius: 50%;
+          font-size: 26px;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          color: #120338;
+          & + span {
+            margin-top: 15px;
+          }
+          &:hover {
+            color: #722ed1;
+            transform: scale(1.2);
+            transition: all 0.5s;
+          }
+        }
+      }
+      iframe {
+        height: 100%;
+        width: 100%;
+        border: none;
+      }
+    }
+    .code-container {
+      flex: 1;
+      height: 100vh;
+      .codemirror {
+        height: 100%;
+        overflow: auto;
+      }
+    }
   }
 </style>
