@@ -29,11 +29,11 @@ export default `
 <body>
 <div class="container">
 	<div class="box">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque, eos explicabo hic
-</div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque, eos explicabo hic
+	</div>
 	<div class="box box-special">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque, eos explicabo hic
-</div>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor doloremque, eos explicabo hic
+	</div>
 </div>
 </body>
 </html>
