@@ -4,7 +4,7 @@ export default `
 <head>
   <meta charset="UTF-8">
   <title>半透明背景</title>
-  <style>
+  <style type="text/css">
   	.container{
   		display: grid;
   		grid-template-columns: repeat(auto-fit, 300px);

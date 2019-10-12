@@ -34,8 +34,10 @@
 <script>
 	import { codemirror } from "vue-codemirror";
 	import 'codemirror/lib/codemirror.css'
-	import 'codemirror/mode/markdown/markdown'
+	import 'codemirror/mode/htmlmixed/htmlmixed'
 	import 'codemirror/theme/monokai.css'
+	import 'codemirror/addon/hint/css-hint'
+	import 'codemirror/addon/hint/html-hint'
 	import examples from '../examples/index'
 
 	export default {
@@ -49,7 +51,7 @@
 					lineNumbers: true,
 					styleActiveLine: true,
 					theme: 'monokai',
-					lineWrapping: true
+					lineWrapping: true,
 				}
 			}
 		},
