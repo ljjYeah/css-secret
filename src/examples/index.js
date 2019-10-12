@@ -37,7 +37,7 @@ export default {
 		html: example_7
 	},
 	'8': {
-		title: '连续的图片边框',
+		title: '连续的图像边框',
 		html: example_8
 	}
 }
