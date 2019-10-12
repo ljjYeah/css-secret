@@ -11,7 +11,6 @@ export default `
   		justify-content: center;
   		justify-items: center;
   		grid-row-gap: 40px;
-
   	}
     .box{
       width: 450px;

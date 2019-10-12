@@ -5,6 +5,7 @@ import example_4 from './4'
 import example_5 from './5'
 import example_6 from './6'
 import example_7 from './7'
+import example_8 from './8'
 
 export default {
 	'1': {
@@ -34,5 +35,9 @@ export default {
 	'7': {
 		title: '伪随机背景',
 		html: example_7
+	},
+	'8': {
+		title: '连续的图片边框',
+		html: example_8
 	}
 }
