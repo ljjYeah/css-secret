@@ -17,7 +17,9 @@
         <span :class="`iconfont icon-${isShowCode ? 'show' : 'hide'}`" @click="toggleShow"></span>
         <span class="iconfont icon-restart"></span>
       </div>
-      <iframe :srcdoc="examples[currentId].html"></iframe>
+      <div class="iframe-container">
+        <iframe :srcdoc="examples[currentId].html"></iframe>
+      </div>
     </section>
     <section class="code-container" v-if="isShowCode">
       <codemirror
@@ -85,9 +87,8 @@
     .show {
       flex: 1;
       display: grid;
-      grid-template-rows: 115px 1fr;
+      grid-template-rows: 115px 1fr 30px;
       position: relative;
-      padding-bottom: 30px;
       .nav {
         padding-top: 10px;
         display: flex;
@@ -144,10 +145,13 @@
           }
         }
       }
-      iframe {
-        height: 100%;
-        width: 100%;
-        border: none;
+      .iframe-container{
+        margin-top: 30px;
+        iframe {
+          height: 100%;
+          width: 100%;
+          border: none;
+        }
       }
     }
     .code-container {

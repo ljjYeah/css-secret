@@ -4,15 +4,13 @@ export default `
 <head>
   <meta charset="UTF-8">
   <title>半透明背景</title>
-  <style type="text/css">
+  <style>
   	.container{
   		display: grid;
   		grid-template-columns: repeat(auto-fit, 300px);
-  		grid-template-rows: repeat(auto-fit, 300px);
-  		justify-items: center;
-  		align-items: center;
   		justify-content: center;
-  		align-content: center;
+  		justify-items: center;
+  		grid-row-gap: 40px;
   	}
     .box{
       color: white;

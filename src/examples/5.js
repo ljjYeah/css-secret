@@ -8,10 +8,9 @@ export default `
   	.container{
   		display: grid;
   		grid-template-columns: repeat(auto-fit, 300px);
-  		grid-template-rows: repeat(auto-fit, 300px);
-  		place-content: center center;
+  		justify-content: center;
   		justify-items: center;
-  		align-items: center;
+  		grid-row-gap: 40px;
   	}
     .box{
       width: 200px;
