@@ -1,8 +1,9 @@
+export default `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>自适应内部元素</title>
   <style>
     .content {
       margin: 50px auto;
@@ -20,7 +21,7 @@ min-content将解析为这个容器内部最大的不可断行元素的宽度(�
 
 -->
 <figure class="content">
-  <img src="./images/pic.jpg">
+  <img src="https://static.liujuanjuan.com/css-secret-files/stone.jpg?x-oss-process=style/cutImage">
   <figcaption>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, tempore veniam. A amet beatae distinctio doloremque
     eaque ex explicabo harum in, neque nesciunt nihil quasi, quo repudiandae sapiente sint tenetur.
@@ -28,3 +29,4 @@ min-content将解析为这个容器内部最大的不可断行元素的宽度(�
 </figure>
 </body>
 </html>
+`

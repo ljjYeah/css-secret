@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec6bd2f0-fe89-45f3-aaa9-c624311439e1" name="Default" comment="样式优化">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/10.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/11.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/12.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/13.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/9.js" />
+    <list default="true" id="ec6bd2f0-fe89-45f3-aaa9-c624311439e1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/examples/45.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/examples/index.js" afterPath="$PROJECT_DIR$/src/examples/index.js" />
+      <change beforePath="$PROJECT_DIR$/36 自适应内部元素/demo1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/36 自适应内部元素/images/pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/37 精确控制表格列宽/demo1.html" afterPath="$PROJECT_DIR$/src/examples/36.js" />
+      <change beforePath="$PROJECT_DIR$/37 精确控制表格列宽/images/pic.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/45 打字动画/demo1.html" afterPath="$PROJECT_DIR$/src/examples/37.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,36 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="8.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/examples/8.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <marker date="1570964988834" expanded="true" signature="48:2110" ph="..." />
-                <marker date="1570964988834" expanded="true" signature="55:1911" ph="..." />
-                <marker date="1570964988834" expanded="true" signature="115:1903" ph="..." />
-                <marker date="1570964988834" expanded="true" signature="130:287" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="296:402" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="426:610" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="620:925" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="956:1133" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="1161:1500" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="1564:1620" ph="..." />
-                <marker date="1570964988834" expanded="true" signature="1574:1614" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="1630:1893" ph="{...}" />
-                <marker date="1570964988834" expanded="true" signature="1918:2102" ph="..." />
-                <marker date="1570964988834" expanded="true" signature="1942:2094" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="9.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="9.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/examples/9.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="198">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding>
                 <marker date="1570976467111" expanded="true" signature="48:1310" ph="..." />
                 <marker date="1570976467111" expanded="true" signature="55:957" ph="..." />
@@ -126,6 +101,68 @@
                 <marker date="1570976467111" expanded="true" signature="900:939" ph="{...}" />
                 <marker date="1570976467111" expanded="true" signature="964:1302" ph="..." />
                 <marker date="1570976467111" expanded="true" signature="988:1294" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="45.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/45.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <marker date="1570977578719" expanded="true" signature="48:639" ph="..." />
+                <marker date="1570977578719" expanded="true" signature="55:510" ph="..." />
+                <marker date="1570977578719" expanded="true" signature="112:502" ph="..." />
+                <marker date="1570977578719" expanded="true" signature="136:165" ph="..." />
+                <marker date="1570977578719" expanded="true" signature="180:213" ph="{...}" />
+                <marker date="1570977578719" expanded="true" signature="225:305" ph="{...}" />
+                <marker date="1570977578719" expanded="true" signature="314:492" ph="{...}" />
+                <marker date="1570977578719" expanded="true" signature="517:631" ph="..." />
+                <marker date="1570977578719" expanded="true" signature="541:623" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="37.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/37.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding>
+                <marker date="1570977608954" expanded="true" signature="48:886" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="55:91" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="55:276" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="113:268" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="124:206" ph="{...}" />
+                <marker date="1570977608954" expanded="true" signature="224:258" ph="{...}" />
+                <marker date="1570977608954" expanded="true" signature="283:878" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="289:464" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="474:660" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="481:651" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="684:870" ph="..." />
+                <marker date="1570977608954" expanded="true" signature="691:861" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="36.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/examples/36.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="3" selection-end-column="6" />
+              <folding>
+                <marker date="1570977869127" expanded="true" signature="48:777" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="55:258" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="115:250" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="130:240" ph="{...}" />
+                <marker date="1570977869127" expanded="true" signature="265:769" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="271:371" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="398:761" ph="..." />
+                <marker date="1570977869127" expanded="true" signature="514:751" ph="..." />
               </folding>
             </state>
           </provider>
@@ -253,8 +290,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/36 自适应内部宽度/demo1.html" />
-        <option value="$PROJECT_DIR$/36 自适应内部元素/demo1.html" />
-        <option value="$PROJECT_DIR$/37 精确控制表格列宽/demo1.html" />
         <option value="$PROJECT_DIR$/45 打字动画/demo1.html" />
         <option value="$PROJECT_DIR$/01 半透明边框/index.html" />
         <option value="$PROJECT_DIR$/01 背景与边框/多重边框.html" />
@@ -286,6 +321,11 @@
         <option value="$PROJECT_DIR$/src/examples/index.js" />
         <option value="$PROJECT_DIR$/src/examples/9.js" />
         <option value="$PROJECT_DIR$/src/examples/10.js" />
+        <option value="$PROJECT_DIR$/src/examples/45.js" />
+        <option value="$PROJECT_DIR$/src/examples/37.js" />
+        <option value="$PROJECT_DIR$/37 精确控制表格列宽/demo1.html" />
+        <option value="$PROJECT_DIR$/src/examples/36.js" />
+        <option value="$PROJECT_DIR$/36 自适应内部元素/demo1.html" />
       </list>
     </option>
   </component>
@@ -338,12 +378,6 @@
               <item name="css-secret" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-secret" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-secret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-secret" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -428,7 +462,7 @@
       <workItem from="1570672090363" duration="968000" />
       <workItem from="1570688707603" duration="5944000" />
       <workItem from="1570843642503" duration="18724000" />
-      <workItem from="1570965004519" duration="4015000" />
+      <workItem from="1570965004519" duration="4543000" />
     </task>
     <task id="LOCAL-00001" summary="精确控制表格列宽">
       <created>1503383211654</created>
@@ -500,24 +534,31 @@
       <option name="project" value="LOCAL" />
       <updated>1570871391229</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="新增自适应的椭圆和平行四边形">
+      <created>1570977430400</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570977430401</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92863000" />
+    <option name="totallyTimeSpent" value="93391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1178" y="0" width="1382" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10066128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20205732" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21021466" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3441895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -546,7 +587,8 @@
     <MESSAGE value="增加复杂的背景图案和伪随机背景" />
     <MESSAGE value="编辑器部分实现css高亮展示" />
     <MESSAGE value="样式优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="样式优化" />
+    <MESSAGE value="新增自适应的椭圆和平行四边形" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增自适应的椭圆和平行四边形" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -593,20 +635,6 @@
     <entry file="file://$PROJECT_DIR$/04 边框内圆角/index.html" />
     <entry file="file://$PROJECT_DIR$/01 半透明边框/index.html" />
     <entry file="file://$PROJECT_DIR$/05 条纹背景/index.html" />
-    <entry file="file://$PROJECT_DIR$/37 精确控制表格列宽/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/45 打字动画/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/2-2.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Show.vue" />
     <entry file="file://$PROJECT_DIR$/src/components/HtmlCode.vue" />
@@ -775,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/36 自适应内部元素/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="518">
@@ -840,10 +860,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/36 自适应内部元素/images/pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/45 打字动画/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/37 精确控制表格列宽/images/pic.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/45.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1570977578719" expanded="true" signature="48:639" ph="..." />
+            <marker date="1570977578719" expanded="true" signature="55:510" ph="..." />
+            <marker date="1570977578719" expanded="true" signature="112:502" ph="..." />
+            <marker date="1570977578719" expanded="true" signature="136:165" ph="..." />
+            <marker date="1570977578719" expanded="true" signature="180:213" ph="{...}" />
+            <marker date="1570977578719" expanded="true" signature="225:305" ph="{...}" />
+            <marker date="1570977578719" expanded="true" signature="314:492" ph="{...}" />
+            <marker date="1570977578719" expanded="true" signature="517:631" ph="..." />
+            <marker date="1570977578719" expanded="true" signature="541:623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/37 精确控制表格列宽/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/37.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <marker date="1570977608954" expanded="true" signature="48:886" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="55:91" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="55:276" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="113:268" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="124:206" ph="{...}" />
+            <marker date="1570977608954" expanded="true" signature="224:258" ph="{...}" />
+            <marker date="1570977608954" expanded="true" signature="283:878" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="289:464" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="474:660" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="481:651" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="684:870" ph="..." />
+            <marker date="1570977608954" expanded="true" signature="691:861" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/36 自适应内部元素/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/examples/9.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <marker date="1570976467111" expanded="true" signature="48:1310" ph="..." />
             <marker date="1570976467111" expanded="true" signature="55:957" ph="..." />
@@ -861,6 +954,28 @@
             <marker date="1570976467111" expanded="true" signature="900:939" ph="{...}" />
             <marker date="1570976467111" expanded="true" signature="964:1302" ph="..." />
             <marker date="1570976467111" expanded="true" signature="988:1294" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/36.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <marker date="1570977869127" expanded="true" signature="48:777" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="55:258" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="115:250" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="130:240" ph="{...}" />
+            <marker date="1570977869127" expanded="true" signature="265:769" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="271:371" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="398:761" ph="..." />
+            <marker date="1570977869127" expanded="true" signature="514:751" ph="..." />
           </folding>
         </state>
       </provider>
