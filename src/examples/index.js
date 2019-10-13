@@ -6,6 +6,11 @@ import example_5 from './5'
 import example_6 from './6'
 import example_7 from './7'
 import example_8 from './8'
+import example_9 from './9'
+import example_10 from './10'
+import example_11 from './11'
+import example_12 from './12'
+import example_13 from './13'
 
 export default {
 	'1': {
@@ -39,5 +44,25 @@ export default {
 	'8': {
 		title: '连续的图像边框',
 		html: example_8
-	}
+	},
+  '9': {
+    title: '自适应的椭圆',
+    html: example_9
+  },
+  '10': {
+    title: '平行四边形',
+    html: example_10
+  },
+  '11': {
+    title: '菱形图片',
+    html: example_11
+  },
+  '12': {
+    title: '切角效果',
+    html: example_12
+  },
+  '13': {
+    title: '梯形标签页',
+    html: example_13
+  }
 }
