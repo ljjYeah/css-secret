@@ -6,21 +6,46 @@
   <style>
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, 300px);
       justify-content: center;
-      justify-items: center;
-      grid-row-gap: 40px;
+      grid-row-gap: 100px;
     }
 
     .box {
       width: 200px;
       height: 200px;
+      transform: rotate(45deg);
+      overflow: hidden;
+    }
+
+    /*盒子旋转45deg，图片反转45deg，但是和我们想象的不一致，并不是菱形，而是八角形*/
+    .box1 img {
+      transform: rotate(-45deg);
+    }
+
+    /*box1的img是八角形的原因是img的长度不是box的对角线的长度，导致截取，而通过勾股定理，对角线的长度原大小的1.42倍*/
+    .box2 img {
+      transform: rotate(-45deg) scale(1.42);
+    }
+
+    /*上面box2已经实现了需求，但是我们多写了一层嵌套，可以使用clip-path进行切割*/
+    .clip-path{
+      clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+      transition: 1s clip-path;
+    }
+    .clip-path:hover{
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
   </style>
 </head>
 <body>
 <div class="container">
-  <div class="box box1"></div>
+  <div class="box box1">
+    <img src="https://static.liujuanjuan.com/css-secret-files/img.jpg?x-oss-process=style/cutImage">
+  </div>
+  <div class="box box2">
+    <img src="https://static.liujuanjuan.com/css-secret-files/img.jpg?x-oss-process=style/cutImage">
+  </div>
+  <img class="clip-path" src="https://static.liujuanjuan.com/css-secret-files/img.jpg?x-oss-process=style/cutImage">
 </div>
 </body>
 </html>
