@@ -165,8 +165,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -382,11 +382,6 @@
             <path>
               <item name="css-secret" type="b2602c69:ProjectViewProjectNode" />
               <item name="css-secret" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="css-secret" type="b2602c69:ProjectViewProjectNode" />
-              <item name="css-secret" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -472,7 +467,7 @@
       <workItem from="1570688707603" duration="5944000" />
       <workItem from="1570843642503" duration="18724000" />
       <workItem from="1570965004519" duration="5214000" />
-      <workItem from="1571062558981" duration="69000" />
+      <workItem from="1571062558981" duration="221000" />
     </task>
     <task id="LOCAL-00001" summary="精确控制表格列宽">
       <created>1503383211654</created>
@@ -569,7 +564,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94131000" />
+    <option name="totallyTimeSpent" value="94283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="499" y="63" width="1680" height="1152" extended-state="0" />
@@ -1027,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
