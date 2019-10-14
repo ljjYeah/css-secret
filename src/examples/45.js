@@ -1,8 +1,9 @@
+export default `
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>打字动画</title>
   <style>
     @keyframes typing {
       from {width: 0}
@@ -35,3 +36,4 @@
 </div>
 </body>
 </html>
+`
