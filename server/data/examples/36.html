@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>自适应内部元素</title>
+  <style>
+    .content {
+      margin: 50px auto;
+      padding: 10px;
+      border: 1px solid black;
+      width: min-content;
+    }
+  </style>
+</head>
+<body>
+<!--
+本例子中，最有价值的一句话是css样式：width: min-content;
+
+min-content将解析为这个容器内部最大的不可断行元素的宽度(即最宽的单词、图片或具有固定宽度的盒元 素)
+
+-->
+<figure class="content">
+  <img src="https://static.liujuanjuan.com/css-secret-files/stone.jpg?x-oss-process=style/cutImage">
+  <figcaption>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, tempore veniam. A amet beatae distinctio doloremque
+    eaque ex explicabo harum in, neque nesciunt nihil quasi, quo repudiandae sapiente sint tenetur.
+  </figcaption>
+</figure>
+</body>
+</html>

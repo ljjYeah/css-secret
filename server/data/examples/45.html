@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>打字动画</title>
+  <style>
+    @keyframes typing {
+      from {
+        width: 0
+      }
+    }
+
+    .container {
+      position: relative;
+    }
+
+    p.under {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 16rem;
+    }
+
+    p.up {
+      position: absolute;
+      color: red;
+      top: 0;
+      left: 0;
+      width: 16rem;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing 10s;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <p class="under">css is awesome!</p>
+  <p class="up">css is awesome!</p>
+</div>
+</body>
+</html>

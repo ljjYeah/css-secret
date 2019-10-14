@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>平行四边形</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 500px);
+      justify-content: center;
+      justify-items: center;
+      grid-row-gap: 40px;
+    }
+
+    .box {
+      width: 250px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      position: relative;
+    }
+
+    .box1 {
+      background: #9254de;
+      transform: skewX(-45deg);
+    }
+
+    .box2::before {
+      position: absolute;
+      content: ' ';
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      background: #9254de;
+      transform: skewX(-45deg);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box box1">平行四边形</div>
+  <div class="box box2">平行四边形</div>
+</div>
+</body>
+</html>

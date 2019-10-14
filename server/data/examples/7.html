@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>伪随机背景</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 500px);
+      justify-content: center;
+      justify-items: center;
+      grid-row-gap: 40px;
+    }
+
+    .box {
+      width: 450px;
+      height: 200px;
+    }
+
+    /*很规律的排列*/
+    .box1 {
+      background: linear-gradient(to right, #9254de 15%, #b37feb 0, #b37feb 40%, #d3adf7 0, #d3adf7 60%, #efdbff 0);
+      background-size: 80px 100%;
+    }
+
+    /*随机排列,这个已经实现了基本的随机排列，但是240px会重复显示，还有更为复杂的随机排列，自行查阅*/
+    .box2 {
+      background: #efdbff;
+      background-image: linear-gradient(90deg, #9254de 10px, transparent 0),
+      linear-gradient(90deg, #b37feb 20px, transparent 0),
+      linear-gradient(90deg, #d3adf7 20px, transparent 0);
+      background-size: 80px 100%, 60px 100%, 40px 100%;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+</div>
+</body>
+</html>
