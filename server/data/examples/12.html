@@ -16,11 +16,53 @@
       width: 200px;
       height: 200px;
     }
+
+    .box1 {
+      background: linear-gradient(-45deg, transparent 15px, #9254de 0)
+    }
+
+    /*直角切角*/
+    .box2 {
+      background:
+        linear-gradient(135deg, transparent 15px, #9254de 0) top left no-repeat,
+        linear-gradient(-135deg, transparent 15px, #9254de 0) top right no-repeat,
+        linear-gradient(45deg, transparent 15px, #9254de 0) bottom left no-repeat,
+        linear-gradient(-45deg, transparent 15px, #9254de 0) bottom right no-repeat;
+      background-size: 50% 50%;
+    }
+
+    /*弧形切角*/
+    .box3 {
+      background:
+        radial-gradient(circle at top left, transparent 15px, #9254de 0) top left no-repeat,
+        radial-gradient(circle at top right, transparent 15px, #9254de 0) top right no-repeat,
+        radial-gradient(circle at bottom left, transparent 15px, #9254de 0) bottom left no-repeat,
+        radial-gradient(circle at bottom right, transparent 15px, #9254de 0) bottom right no-repeat;
+      background-size: 50% 50%;
+    }
+
+    /*使用clip-path进行裁切，好处就是如果背景是图片的话，上面的方式均不支持，但是缺点也很明显，如果里面有文字的话，会裁切掉文字*/
+    .box4 {
+      background:#9254de;
+      clip-path: polygon(
+        15px 0,
+        calc(100% - 15px) 0,
+        100% 15px,
+        100% calc(100% - 15px),
+        calc(100% - 15px) 100%,
+        15px 100%,
+        0 calc(100% - 15px),
+        0 15px
+      );
+    }
   </style>
 </head>
 <body>
 <div class="container">
   <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
 </div>
 </body>
 </html>
