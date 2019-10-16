@@ -15,7 +15,7 @@
       <div class="icons">
         <span class="iconfont icon-home" @click="$router.push('/list')"></span>
         <span :class="`iconfont icon-${isShowCode ? 'show' : 'hide'}`" @click="toggleShow"></span>
-        <span class="iconfont icon-restart"></span>
+        <!--<span class="iconfont icon-restart"></span>-->
       </div>
       <div class="iframe-container">
         <iframe :srcdoc="example.current.html"></iframe>
@@ -78,7 +78,8 @@
 			},
 			changeExample(id) {
 				this.$router.push(`/example/${id}`);
-				this.getInfoById()
+				this.getInfoById();
+        this.isShowCode = false;
 			},
 			toggleShow() {
 				this.isShowCode = !this.isShowCode;

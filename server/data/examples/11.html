@@ -6,6 +6,8 @@
   <style>
     .container {
       display: grid;
+      grid-template-rows: repeat(auto-fit, 300px);
+      align-items: center;
       justify-content: center;
       grid-row-gap: 100px;
     }
@@ -15,6 +17,7 @@
       height: 200px;
       transform: rotate(45deg);
       overflow: hidden;
+      /*border: 5px solid red;*/
     }
 
     /*盒子旋转45deg，图片反转45deg，但是和我们想象的不一致，并不是菱形，而是八角形*/
