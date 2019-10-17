@@ -6,7 +6,7 @@
   <style>
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, 300px);
+      grid-template-columns: repeat(3, 300px);
       justify-content: center;
       justify-items: center;
       grid-row-gap: 40px;
@@ -16,26 +16,55 @@
       padding: 20px;
       width: 200px;
       height: 200px;
-      background-color: #9254de;
       border: 10px solid rgba(146, 84, 222, 0.44);
-      background-image: url("https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/css-secret-files/img.jpg");
-      background-size: 50px 50px;
-      background-repeat: no-repeat;
+      background: #9254de url("https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/css-secret-files/img.jpg") no-repeat 0 0/50px 50px;
       box-sizing: border-box;
-      background-clip: padding-box;
     }
 
     .extend {
       background-position: right 20px bottom 20px;
+      background-clip: padding-box;
     }
 
     .percent {
       background-position: calc(100% - 20px) calc(100% - 20px);
+      background-clip: padding-box;
     }
 
     .origin {
       background-position: right bottom;
       background-origin: content-box;
+      background-clip: padding-box;
+    }
+
+    .origin1 {
+      border: 10px dotted white;
+      background-origin: border-box;
+    }
+
+    .origin2 {
+      border: 10px dotted white;
+      background-origin: padding-box;
+    }
+
+    .origin3 {
+      border: 10px dotted white;
+      background-origin: content-box;
+    }
+
+    .clip1 {
+      border: 10px dotted white;
+      background-clip: border-box;
+    }
+
+    .clip2 {
+      border: 10px dotted white;
+      background-clip: padding-box;
+    }
+
+    .clip3 {
+      border: 10px dotted white;
+      background-clip: content-box;
     }
   </style>
 </head>
@@ -49,8 +78,18 @@ background-position的定位是根据左、上两边进行定位的，如果整�
     针对上面的不足，可以使用calc进行优化
   -->
   <div class="box percent"></div>
-  <!--很多场景下背景图片和内边距同宽，就可以使用position-origin,这样，内边距改变的时候也不用修改多处数据-->
+  <!--很多场景下背景图片和内边距同宽，就可以使用background-origin,这样，内边距改变的时候也不用修改多处数据-->
   <div class="box origin"></div>
+
+  <!--以下是background-origin和background-clip的区别-->
+  <!--origin-->
+  <div class="box origin1"></div>
+  <div class="box origin2"></div>
+  <div class="box origin3"></div>
+
+  <div class="box clip1"></div>
+  <div class="box clip2"></div>
+  <div class="box clip3"></div>
 </div>
 </body>
 </html>
