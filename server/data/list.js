@@ -1,4 +1,4 @@
-const list = {
+export default {
 	'1': {
 		title: '半透明背景'
 	},
@@ -36,5 +36,3 @@ const list = {
 		title: '切角效果'
 	}
 };
-
-module.exports = list;

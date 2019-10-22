@@ -1,6 +1,6 @@
-const Koa = require('koa');
-const bodyParser = require('koa-bodyparser');
-const router = require('./controllers/index');
+import Koa from 'koa';
+import bodyParser from 'koa-bodyparser';
+import router from './controllers/index.js';
 
 const app = new Koa();
 

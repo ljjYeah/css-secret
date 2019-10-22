@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "css-secret server",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon --experimental-modules index.js"
   },
   "author": "",
   "license": "ISC",

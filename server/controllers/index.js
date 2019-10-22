@@ -1,9 +1,9 @@
-const Router = require('koa-router');
-const fs = require('fs');
-const path = require('path');
-const router = new Router();
+import Router from 'koa-router';
+import fs from 'fs';
+import path from 'path';
+import list from '../data/list.js';
 
-const list = require('../data/list');
+const router = new Router();
 
 router.get('/list', (ctx) => {
 	ctx.body = {
@@ -47,4 +47,4 @@ router.get('/info', (ctx) => {
 	}
 });
 
-module.exports = router;
+export default router;
