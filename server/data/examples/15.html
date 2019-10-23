@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>简单的饼图</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      justify-content: center;
+      justify-items: center;
+      grid-row-gap: 40px;
+    }
+
+    .box {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: #9254de;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(.5turn); }
+    }
+    @keyframes bg {
+      50% { background-color: yellowgreen; }
+    }
+
+    .box1{
+      background-image: linear-gradient(to right, transparent 50%, yellowgreen 0);
+    }
+
+    .box1::before{
+      content: ' ';
+      display: block;
+      margin-left: 50%;
+      height: 100%;
+      background-color: inherit;
+      border-radius: 0 100% 100% 0 / 50%;
+      transform-origin: left;
+      transform: rotate(0.2turn);
+      /*step-start和step-end：一步到位和延迟到位*/
+      animation: spin 3s linear infinite, bg 6s step-end infinite;
+    }
+
+    .box2{
+      /*conic-gradient：圆锥形渐变*/
+      background: conic-gradient(deeppink 20%, #fb3 0, #fb3 60%, #9254de 0);
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box box1"></div>
+  <div class="box box2" data-value="40"></div>
+</div>
+</body>
+</html>
