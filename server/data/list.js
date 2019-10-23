@@ -34,5 +34,8 @@ export default {
 	},
 	'12': {
 		title: '切角效果'
+	},
+	'13': {
+		title: '梯形标签页'
 	}
 };

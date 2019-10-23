@@ -1,9 +1,13 @@
 import Router from 'koa-router';
 import fs from 'fs';
-import path from 'path';
+import { fileURLToPath } from 'url';
+import path, {dirname} from 'path';
 import list from '../data/list.js';
 
 const router = new Router();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 router.get('/list', (ctx) => {
 	ctx.body = {

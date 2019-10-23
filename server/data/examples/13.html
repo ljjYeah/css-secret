@@ -22,6 +22,21 @@
       color: white;
       width: 200px;
       height: 100px;
+      text-align: center;
+    }
+
+    .box1::before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: ' ';
+      background: #9254de;
+      z-index: -1;
+      transform: scaleY(1.43) perspective(40px) rotateX(10deg);
+      transform-origin: bottom left;
+      border-radius: 10px;
     }
   </style>
 </head>
