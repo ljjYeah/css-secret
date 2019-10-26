@@ -40,5 +40,8 @@ export default {
 	},
 	'14': {
 		title: '简单的饼图'
+	},
+	'15': {
+		title: '单侧投影'
 	}
 };

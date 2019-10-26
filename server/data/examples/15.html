@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>简单的饼图</title>
+  <title>单侧投影</title>
   <style>
     .container {
       display: grid;
@@ -15,44 +15,38 @@
     .box {
       width: 200px;
       height: 200px;
-      border-radius: 50%;
       background: #9254de;
     }
 
-    @keyframes spin {
-      to { transform: rotate(.5turn); }
-    }
-    @keyframes bg {
-      50% { background-color: yellowgreen; }
-    }
-
+    /*单侧投影*/
     .box1{
-      background-image: linear-gradient(to right, transparent 50%, yellowgreen 0);
+      box-shadow: 0 7px 4px -4px red;
     }
 
-    .box1::before{
-      content: ' ';
-      display: block;
-      margin-left: 50%;
-      height: 100%;
-      background-color: inherit;
-      border-radius: 0 100% 100% 0 / 50%;
-      transform-origin: left;
-      transform: rotate(0.2turn);
-      /*step-start和step-end：一步到位和延迟到位*/
-      animation: spin 3s linear infinite, bg 6s step-end infinite;
-    }
-
+    /*邻边投影,露出来的投影太多浓重*/
     .box2{
-      /*conic-gradient：圆锥形渐变*/
-      background: conic-gradient(deeppink 20%, #fb3 0, #fb3 60%, #9254de 0);
+      box-shadow: 3px 3px 6px red;
+    }
+
+    /*邻边投影,露出来的投影不会太浓重*/
+    .box3{
+      box-shadow: 3px 3px 6px -3px red;
+    }
+
+    /*双侧投影*/
+    .box4{
+      box-shadow:
+        5px 0 5px -5px red,
+        -5px 0 5px -5px red;
     }
   </style>
 </head>
 <body>
 <div class="container">
   <div class="box box1"></div>
-  <div class="box box2" data-value="40"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
 </div>
 </body>
 </html>

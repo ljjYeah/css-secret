@@ -4,7 +4,7 @@
       <div class="nav">
         <h1>{{example.current.title}}</h1>
         <div class="chapter">
-             <span v-if="example.pre.id!=='-1'" @click="changeExample(example.pre.id)">
+          <span v-if="example.pre.id!=='-1'" @click="changeExample(example.pre.id)">
             上一章：{{example.pre.title}}
           </span>
           <span v-if="example.next.id!=='-1'" @click="changeExample(example.next.id)">
@@ -79,7 +79,7 @@
 			changeExample(id) {
 				this.$router.push(`/example/${id}`);
 				this.getInfoById();
-        this.isShowCode = false;
+				this.isShowCode = false;
 			},
 			toggleShow() {
 				this.isShowCode = !this.isShowCode;

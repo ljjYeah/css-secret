@@ -12,7 +12,6 @@
 
 <script>
 	import { getList } from '../service/index'
-	// import examples from '../examples/index'
 
 	export default {
 		name: 'list',
