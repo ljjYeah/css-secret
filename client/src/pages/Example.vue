@@ -79,7 +79,7 @@
 			changeExample(id) {
 				this.$router.push(`/example/${id}`);
 				this.getInfoById();
-				this.isShowCode = false;
+				// this.isShowCode = false;
 			},
 			toggleShow() {
 				this.isShowCode = !this.isShowCode;
