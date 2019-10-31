@@ -19,6 +19,40 @@
 
     .box1 {
       background:#9254de;
+      border: 10px dotted red;
+      background-clip: padding-box;
+      filter: drop-shadow(4px 4px 6px rgba(255,0,0,.5));
+      /*box-shadow: 4px 4px 6px rgba(255,0,0,.5)*/
+    }
+
+    .box2{
+      background:#9254de;
+      position: relative;
+      border-radius: 10px;
+      filter: drop-shadow(4px 4px 6px rgba(255,0,0,.5));
+      /*box-shadow: 4px 4px 6px rgba(255,0,0,.5)*/
+    }
+    .box2::before{
+      content: ' ';
+      display: block;
+      position: absolute;
+      height: 0;
+      width: 0;
+      border: 20px solid transparent;
+      border-left-color: #9254de;
+      top: 40px;
+      right: -40px;
+    }
+
+    .box3{
+      filter: drop-shadow(4px 4px 6px rgba(255,0,0,.5));
+      /*box-shadow: 4px 4px 6px rgba(255,0,0,.5)*/
+    }
+    .box3:before{
+      content: ' ';
+      display: block;
+      width: inherit;
+      height: inherit;
       clip-path: polygon(
         15px 0,
         calc(100% - 15px) 0,
@@ -29,14 +63,15 @@
         0 calc(100% - 15px),
         0 15px
       );
-      filter: drop-shadow(2px 2px 10px rgba(0,0,0,.5));
-      /*box-shadow: 2px 2px 20px red;*/
+      background:#9254de;
     }
   </style>
 </head>
 <body>
 <div class="container">
   <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
 </div>
 </body>
 </html>

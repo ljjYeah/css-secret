@@ -43,5 +43,8 @@ export default {
 	},
 	'15': {
 		title: '单侧投影'
+	},
+	'16': {
+		title: '不规则投影'
 	}
 };
