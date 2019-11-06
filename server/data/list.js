@@ -46,5 +46,8 @@ export default {
 	},
 	'16': {
 		title: '不规则投影'
+	},
+	'17': {
+		title: '染色效果'
 	}
 };

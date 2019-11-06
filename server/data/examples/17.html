@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>染色效果</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      justify-content: center;
+      justify-items: center;
+      grid-row-gap: 40px;
+    }
+
+    .box {
+      color: white;
+      height: 200px;
+      width: 200px;
+      background: url("https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/css-secret-files/myself.png") center center no-repeat;
+      background-size: contain;
+    }
+
+    /*sepia会给图片增加一种降饱和度的 橙黄色染色效果，几乎所有像素的色相值会被收敛到 35~40*/
+    .box1 {
+      filter: sepia(1)
+    }
+
+    /*saturate滤镜来给每个像素提升饱和度*/
+    .box2 {
+      filter: saturate(4)
+    }
+
+    /*hue-rotate把每个像素的色相以指定的度数进行偏移*/
+    .box3 {
+      filter: hue-rotate(295deg);
+    }
+
+    .box4 {
+      filter: sepia(1) saturate(4) hue-rotate(295deg);
+    }
+
+    /*mix-blend-mode 可以为整个元素设置混合模式，background-blend-mode 可以为每层背景单独指定混合模式*/
+    .box5{
+      background-color: hsl(335, 100%, 50%);
+      background-blend-mode: luminosity;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box"></div>
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+  <div class="box box4"></div>
+  <div class="box box5"></div>
+</div>
+</body>
+</html>
