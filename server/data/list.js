@@ -49,5 +49,8 @@ export default {
 	},
 	'17': {
 		title: '染色效果'
+	},
+	'18': {
+		title: '毛玻璃效果'
 	}
 };

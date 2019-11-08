@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>毛玻璃效果</title>
+  <style>
+    .container {
+      display: grid;
+      justify-content: center;
+    }
+
+    .box {
+      height: 300px;
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/css-secret-files/hill.jpeg") 0 / cover;
+    }
+
+    .text{
+      height: 250px;
+      width: 400px;
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .text::before{
+      content: ' ';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      filter: blur(20px);
+      background: rgba(255,0,0,0.3);
+      margin: -30px;
+      z-index: -1;
+      background: url("https://liujuanjuan-resource.oss-cn-beijing.aliyuncs.com/css-secret-files/hill.jpeg") 0 / cover;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+    <div class="text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A expedita fuga harum hic laborum neque quae quod tenetur ullam. Accusantium assumenda at cumque eveniet expedita natus obcaecati provident quod repudiandae.
+    </div>
+  </div>
+</div>
+</body>
+</html>
